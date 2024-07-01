@@ -61,9 +61,9 @@ const ContactUs = () => {
         )}
       <div className='flex flex-col justify-center items-center'>
         <div className='flex flex-col max-w-5xl min-h-[45vh] justify-center items-center'>
-          <p className='text-4xl p-4'>
+          {/* <p className='text-4xl p-4'>
             {data.contactUsPage.subtitle}
-          </p>
+          </p> */}
           {data.contactUsPage.description.map((desc) => (
             <p className='p-4'
               key={shortid.generate()}>
@@ -92,7 +92,7 @@ const ContactUs = () => {
             </form>
           </div>
           <span className="h-1 w-3/4 mt-4 bg-accent-dark-100 lg:w-1/2"></span>
-          <p className='m-8 text-4xl italic'>{data.contactUsPage.sub_headline}</p>
+          <p className='m-8 text-4xl italic'>{data.contactUsPage.subtitle}</p>
           <span className="h-1 w-3/4 mb-8 bg-accent-dark-100 lg:w-1/2"></span>
         </div>
       </div>
