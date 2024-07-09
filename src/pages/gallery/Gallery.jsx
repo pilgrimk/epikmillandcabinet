@@ -16,7 +16,7 @@ const Gallery = () => {
           cloudName: viteCloudName,
           //aspectRatio: "16:9",
           mediaAssets: [
-            { tag: "faux-gallery", transformation: { crop: "fit" } },
+            { tag: "gallery-images", transformation: { crop: "fit" } },
           ],
           carouselStyle: "indicators",
           carouselLocation: "bottom",
