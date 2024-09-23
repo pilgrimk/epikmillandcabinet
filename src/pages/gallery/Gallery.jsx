@@ -26,9 +26,9 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div id='gallery' className='flex flex-col justify-center items-center'>
+    <div id='gallery'>
       <Header title={data.galleryInfo.title} />
-      <div className='flex flex-col justify-center'>
+      <div className='flex flex-col justify-center items-center'>
         <div className='container mx-auto max-w-5xl p-8'>
           <p>
             {data.galleryInfo.description}
