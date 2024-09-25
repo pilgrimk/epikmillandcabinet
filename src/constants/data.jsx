@@ -87,10 +87,10 @@ const heroSection = {
     infoObjs: [
       {
         topLine: `${contactUs.name_long}`,
-        headline: 'Iusto eaque adipisci',
+        headline: 'Trusted and Reliable',
         description: [
-          `What sets ${contactUs.name_long} apart consectetur adipisicing elit. Nemo, exercitationem? Fugiat ad sapiente necessitatibus, soluta eum illo fugit sit optio`,
-          `Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, corrupti. Expedita molestiae illum quaerat reprehenderit nemo architecto nisi nobis quia?`,
+          `${contactUs.name_long} is a family-owned business with over 25 years of experience serving the Salt Lake City valley. Our passion for craftsmanship and dedication to quality have earned us a reputation for delivering custom cabinetry that transforms spaces. From homes to businesses, we specialize in creating functional, beautiful, and tailored cabinetry that reflects the unique needs and style of each client. Our hands-on approach ensures that every project is treated with care and precision, from the initial design consultation to the final installation.`,
+          `As a trusted name in the community, we pride ourselves on using only the finest materials and techniques, ensuring that every cabinet we create is built to last. Whether you're looking for a custom kitchen, bathroom, office, or commercial cabinetry, ${contactUs.name_long} brings expertise and artistry to every project. Our commitment to excellence and personalized service has made us the go-to source for custom cabinetry throughout the region. Let us help you bring your vision to life with cabinetry that combines style, functionality, and lasting quality.`,
         ],
         imgUrl: `${images.about_us_1}`,
         alt: 'info-1',
